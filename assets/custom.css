@@ -1,0 +1,51 @@
+html {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*Shades of orange*/
+  --primary-1-color: #FF9F50;
+  --primary-2-color: #FFB883;
+  --primary-3-color: #FCCDAC;
+  --primary-4-color: #FF7F00;
+
+  /*Black and White*/
+  --main-white-color: #FFFFFF;
+  --main-black-color: #000000;
+
+  /*Shades of grey*/
+  --secondary-1-color: #F6F6F6;
+  --secondary-2-color: #EEEEEE;
+  --secondary-3-color: #D4D4D4;
+  --secondary-4-color: #A9A9A9;
+  --secondary-5-color: #707070;
+  --secondary-6-color: #535353;
+  --secondary-7-color: #282828;
+}
+
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  
+}
+
+
