@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
 html {
   font-size: 14px;
   padding: 0;
@@ -25,27 +27,67 @@ html {
   --secondary-5-color: #707070;
   --secondary-6-color: #535353;
   --secondary-7-color: #282828;
+
+  --primary-font-family: 'DM Sans', sans-serif;
+  --secondary-font-family: 'Open Sans', sans-serif;
 }
 
 
 h1 {
-  font-size: 48px;
+  font-size: 3.42rem;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  color: var(--main-black-color);
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2.28rem;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  color: var(--main-black-color);
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 2rem;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  color: var(--main-black-color);
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 1.42rem;
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  color: var(--main-black-color);
 }
 
 p {
-  
+  font-size: 1.14rem;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  color: var(--main-black-color);
 }
 
+.container {
+  width: 1450px;
+}
+
+.announcement-bar {
+  background-color: var(--primary-2-color);
+  color: var(--main-white-color);
+  font-size: 1.14rem;
+  width: 100%;
+  padding: 20px;
+}
+
+.announcement-bar-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.announcement-bar-items {
+  border-right: 1px solid var(--main-white-color);
+  padding: 10px;
+}
 
