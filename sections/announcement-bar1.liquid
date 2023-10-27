@@ -1,0 +1,41 @@
+
+<div class="announcement-bar"> 
+  <div class="announcement-bar-container">
+    {% for block in section.blocks %}
+      <div class="announcement-bar-items">
+        <div>{{ block.settings.announcement_text }}</div>
+      </div>
+    {% endfor %}
+  <div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Announcement Bar",
+    "class": "announcement-bar-section",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "announcement",
+        "name": "Announcement",
+        "settings": [
+          {
+            "type": "text",
+            "id": "announcement_text",
+            "label": "Announcement Text",
+            "default": "Your announcement here!" 
+          }
+        ],
+        "limit": 5
+      }
+    ],
+    "presets": [
+      {
+        "name": "Default",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
+

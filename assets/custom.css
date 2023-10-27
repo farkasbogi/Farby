@@ -87,7 +87,6 @@ p {
 }
 
 .announcement-bar-items {
-  border-right: 1px solid var(--main-white-color);
   padding: 10px;
 }
 
